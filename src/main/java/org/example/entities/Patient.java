@@ -43,25 +43,13 @@ public class Patient {
     @Override
     public String toString(){
         return "\nПацієнт:\n"+
-                "ID - "+id+'\n'+
-                "Ім'я - "+name+'\n'+
-                "Прізвище - "+ surname+'\n'+
-                "По батькові - "+patronymic+'\n'+
-                "Адреса - "+ address +'\n'+
-                "Номер телефона - "+ phone +'\n'+
-                "Номер медичної картки - "+ medcard_number +'\n'+
-                "Діагноз - "+ diagnosis;
-    }
-    public Patient(String surname, String name, String patronymic, String
-            address, int phone, long medcard_number, String diagnosis){
-        tempID++;
-        this.id = tempID;
-        this.surname = surname;
-        this.name = name;
-        this.patronymic = patronymic;
-        this.address = address;
-        this.phone = phone;
-        this.medcard_number = medcard_number;
-        this.diagnosis = diagnosis;
+                "ID: " + id +
+                ". Ім'я: " + name +
+                ". Прізвище: " + surname +
+                ". По-батькові: " + patronymic +
+                ". Адреса: " + address +
+                ". Номер телефона: " + phone +
+                ". Номер медичної картки: " + medcard_number +
+                ". Діагноз: " + diagnosis;
     }
 }
