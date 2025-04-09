@@ -42,7 +42,7 @@ public class Patient {
     }
     @Override
     public String toString(){
-        return  "\nID: " + id +
+        return  "ID: " + id +
                 ". Ім'я: " + name +
                 ". Прізвище: " + surname +
                 ". По-батькові: " + patronymic +
